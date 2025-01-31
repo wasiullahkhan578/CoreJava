@@ -10,7 +10,8 @@ public class fnParameter {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = add(a,b);
-        System.out.println(c);
+        System.out.println("the sum of the those  number is : "  +c);
+        
         sc.close();
     }
 }
