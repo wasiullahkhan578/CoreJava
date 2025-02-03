@@ -11,7 +11,7 @@ public class array{
         }
         System.out.println("The array elements are: ");
         for (int i = 0; i < n; i++) {
-            System.out.print(array[i] + " ");
+            System.out.print(array[i] + "  ");
         }
         sc.close();
         
