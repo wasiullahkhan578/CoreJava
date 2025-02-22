@@ -3,7 +3,7 @@ public class Polymorphism {
        Calculator calc = new Calculator();
        System.out.println(calc.sum(4,5)); 
        System.out.println(calc.sum(1,2,3));
-       System.out.println(calc.sum((float)2.5, (float) 2.5));
+       System.out.println(calc.sum(2.5f, 2.5f));
     }
 }
 class Calculator{
